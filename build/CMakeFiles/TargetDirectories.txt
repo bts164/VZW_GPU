@@ -1,0 +1,3 @@
+/home/brad/Desktop/VZW_Project/build/CMakeFiles/edit_cache.dir
+/home/brad/Desktop/VZW_Project/build/CMakeFiles/rebuild_cache.dir
+/home/brad/Desktop/VZW_Project/build/CMakeFiles/morph.dir

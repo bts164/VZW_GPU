@@ -1,0 +1,1 @@
+/usr/bin/g++-4.9   -std=c++11   CMakeFiles/morph.dir/main.cpp.o CMakeFiles/morph.dir/morph_generated_yuv2rgb.cu.o CMakeFiles/morph.dir/morph_generated_morph.cu.o  -o morph -rdynamic /opt/cuda/lib64/libcudart_static.a -lpthread -ldl -lrt 
