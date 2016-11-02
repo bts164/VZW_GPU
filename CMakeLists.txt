@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8.11)
+project(Morph)
+find_package(CUDA QUIET REQUIRED)
+set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} -std=c++11)
+set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} --ptxas-options=-v)
+cuda_add_executable(morph main.cpp yuv2rgb.cu morph.cu)
